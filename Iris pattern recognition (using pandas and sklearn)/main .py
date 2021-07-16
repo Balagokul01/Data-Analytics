@@ -1,6 +1,3 @@
-'''
-IRIS DATASET
-'''
 
 # required libraries
 import pandas as pd
@@ -24,8 +21,8 @@ data.Species = encode.fit_transform(data.Species)
 print(data.head())
 
 # train-test-split   
-train , test = train_test_split(data,test_size=0.2,random_state=0)
-
+train , test = train_test_split(data,test_size=0.3,random_state=0)
+# if you change test size =0.2 you will get accuracy 1
 print('shape of training data : ',train.shape)
 print('shape of testing data',test.shape)
 
