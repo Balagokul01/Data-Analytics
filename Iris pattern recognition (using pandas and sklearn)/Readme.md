@@ -1,1 +1,1 @@
-testing iris pattern recognition through logistic regression
+`Recognize iris species through petal length ,width and sepal length and width.`
